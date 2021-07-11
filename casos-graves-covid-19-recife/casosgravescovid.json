@@ -1,0 +1,106 @@
+{
+  "metadados": {
+    "cabecalho": {
+      "titulo": "Casos Graves – Covid-19",
+      "descricao": "Notificações de casos de Síndrome Respiratória Aguda Grave (SRAG) suspeitos para Covid-19 de residentes do Recife realizadas pela rede de saúde no sistema Notifica PE, da Secretaria Estadual de Saúde, desde março de 2020.",
+      "categoria_vcge": "http://vocab.e.gov.br/2011/03/vcge#saude",
+      "fonte_dados": "http://dados.recife.pe.gov.br",
+      "licenca": "Open Database License (ODbL)",
+      "responsavel_dados": "Secretaria de Saúde",
+      "responsavel_disponibilizar": "Emprel",
+      "frequencia_atualizacao": "Semestral",
+      "endereco_dataset": "http://dados.recife.pe.gov.br/dataset/casos-graves-covid-19",
+      "status": "ativo",
+      "endereco_dataset_substituto": "",
+      "granularidade": "por unidade de saúde",
+      "etiquetas": "covid-19,covid,corona vírus,corona,datasus,sus,saúde,vírus"
+    },
+    "recursos": [
+      {
+        "identificador": "http://dados.recife.pe.gov.br/dataset/casos-graves-covid-19/resource/93f4e8c2-430f-4142-86b3-96dab4905b4e",
+        "titulo": "Casos Leves – Covid-19",
+        "formato": "csv",
+        "descricao": "Notificações de casos de Síndrome Respiratória Aguda Grave (SRAG) suspeitos para Covid-19 de residentes do Recife realizadas pela rede de saúde no sistema Notifica PE, da Secretaria Estadual de Saúde, desde março de 2020."
+      }
+    ],
+    "campos": [
+      {
+        "codigo": "sexto",
+        "descricao": "Sexo informado pelo usuário",
+        "tipo": "Char",
+        "tamanho": 10,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "idade",
+        "descricao": "Idade em anos (menor de um ano está codificado com 0 ano)",
+        "tipo": "Char",
+        "tamanho": 30,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "raca",
+        "descricao": "Raça / cor declarada pelo paciente",
+        "tipo": "Char",
+        "tamanho": 10,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "etnia",
+        "descricao": "Tipo da etnia se a categoria Raça/Cor for preenchida com “Indigena",
+        "tipo": "Char",
+        "tamanho": 30,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "morbidades_previas",
+        "descricao": "Condições prévias de saúde (comorbidades) informadas pelo paciente",
+        "tipo": "Char",
+        "tamanho": 100,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "outras_morbidades",
+        "descricao": "Outras condições prévias de saúde (comorbidades) informadas pelo paciente",
+        "tipo": "Char",
+        "tamanho": 100,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "evolucao",
+        "descricao": "Evolução clínica do paciente ( Internado leito de isolamento, Internado em UTI, Isolamento domiciliar, Óbito e Recuperado)",
+        "tipo": "Char",
+        "tamanho": 100,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "data_inicio_primeiros_sintomas",
+        "descricao": "Data de início dos primeiros sintomas de covid informadas pelo paciente",
+        "tipo": "Date",
+        "tamanho": "",
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "data_notificacao",
+        "descricao": "Data da notificação do caso no Notifica- PE",
+        "tipo": "Date",
+        "tamanho": "",
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "data_obito",
+        "descricao": "Data de ocorrência do óbito do paciente",
+        "tipo": "Date",
+        "tamanho": "",
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "classificacao_final",
+        "descricao": "Classificação do caso de acordo com critérios laboratoriais ( Confirmado, Descartado e  Em Análise)",
+        "tipo": "Char",
+        "tamanho": 100,
+        "valores_permitidos": ""
+      }
+    ]
+  }
+}
